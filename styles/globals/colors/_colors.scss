@@ -1,0 +1,10 @@
+$colors: (
+    "black": black,
+    "red": red
+);
+
+@each $name, $value in $colors {
+    .#{$name} {
+        color: $value
+    }
+}
