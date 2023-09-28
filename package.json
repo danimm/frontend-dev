@@ -1,0 +1,14 @@
+{
+  "name": "frontend_dev",
+  "version": "0.0.1",
+  "description": "Coding challenge for frontend web developer",
+  "type": "module",
+  "main": "js/js-test-solution.js",
+  "scripts": {
+    "start": "node js/js-test-solution.js",
+    "test": "node js/js-test.js"
+  },
+  "keywords": ["Javascript", "HTML", "CSS3", "SASS"],
+  "author": "Daniel Muñoz",
+  "license": "ISC"
+}
