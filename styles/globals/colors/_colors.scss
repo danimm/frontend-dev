@@ -1,6 +1,5 @@
 $colors: (
-    "black": black,
-    "red": red
+    "black": black
 );
 
 @each $name, $value in $colors {
