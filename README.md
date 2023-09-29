@@ -8,11 +8,11 @@
 
 In this test the HTML architecture of the following wireframe will be made:
 
-![alt text](./card-wireframe.png)
+![alt text](images/card-wireframe.png)
 
 And this was the final result
 
-![alt text](./result.png)
+![alt text](images/result.png)
 
 For the resolution we combined the CSS architecture of *BEM* (block element modifier) and the SASS preprocessor, 
 making use of some of its functionalities for the structure of folders **(partials)** and for the definition of variables 
@@ -57,7 +57,7 @@ The method consists of 3 parts: **Documentation, check & solution**
 1. **Documentation:** Since the challenge is with vanilla JS and no strict typing is available, I added [JSDoc](https://jsdoc.app/) to have a visual help by our IDE as shown in the image.
 
 
-   ![alt text](./ide_helpers.png)
+   ![alt text](images/ide_helpers.png)
 
 
 2. **Check:** Since we are not using `Typescript` with its strict typing (which would warn us of typing errors, e.g. incorrect parameters, at compile time) some basic checks were added to ensure the correct operation of the method. They could have been written in a single line but I preferred to increase the readability of the code by abstracting the checks.
