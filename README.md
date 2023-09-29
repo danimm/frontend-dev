@@ -80,4 +80,6 @@ console.log(sum1) // 40
 console.log(sum2) // 137
 ```
 
+Additionally, the definition of variables could be changed from `let` to `const` and thus be a little more efficient, since const variables do not contain the method *setter* and of course following the good practices of immutability.
+
 Made with 💚 by Daniel Muñoz
