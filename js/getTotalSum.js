@@ -4,7 +4,7 @@
  * @returns {number}
  */
 export function getTotalSum(numbers) {
-    const isArray = !Array.isArray(numbers)
+    const isArray = Array.isArray(numbers)
     const containsOnlyNumbers = numbers.every((number) => typeof number === 'number')
 
     if (!isArray || !containsOnlyNumbers) {
