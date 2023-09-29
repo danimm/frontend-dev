@@ -18,7 +18,9 @@ For the resolution we combined the CSS architecture of *BEM* (block element modi
 making use of some of its functionalities for the structure of folders **(partials)** and for the definition of variables 
 and code usability **(@use, @forward)**.
 
-> Additional note: Since the wireframe font was not provided, we tried to use a font as close to the design as possible.
+A more extensive explanation will be provided in the code review.
+
+> Additional note: Since the wireframe font was not provided, I tried to use a font as close to the design as possible.
 
 ## Test Javascript
 
@@ -52,18 +54,18 @@ export function getTotalSum(numbers) {
 ```
 
 The method consists of 3 parts: **Documentation, check & solution**
-1. **Documentation:** Since I was working with vanilla JS and not having strict typing, I added [JSDoc](https://jsdoc.app/) to have a visual aid by our IDE as shown in the image.
+1. **Documentation:** Since the challenge is with vanilla JS and no strict typing is available, I added [JSDoc](https://jsdoc.app/) to have a visual help by our IDE as shown in the image.
 
 
    ![alt text](./ide_helpers.png)
 
 
-2. **Check:** Since we are not using Typescript with its strict typing (which would warn us of typing errors, e.g. incorrect parameters, at compile time)some basic checks were added to ensure the correct operation of the method. They could have been written in a single line but I preferred to increase the readability of the code by abstracting the checks.
+2. **Check:** Since we are not using `Typescript` with its strict typing (which would warn us of typing errors, e.g. incorrect parameters, at compile time) some basic checks were added to ensure the correct operation of the method. They could have been written in a single line but I preferred to increase the readability of the code by abstracting the checks.
 
 
-3. **Solution:** After verifying that the values we receive are the correct ones, I used the reduce method of the arrays to do the total sum. There are several ways to do this and it will be discussed in detail in the code review.
+3. **Solution:** After verifying that the values we receive are the correct ones, I used the `reduce` method of the arrays to do the total sum. **There are several ways to do this** and it will be discussed in detail in the code review.
 
-The file `js/js-test.js` contains the import of the module mentioned above and the implementation following the example of the test file:
+To conclude, the file `js/js-test.js` contains the import of the module mentioned above and the implementation following the example of the test file:
 
 ```javascript
 import { getTotalSum } from './getTotalSum.js'
